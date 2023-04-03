@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\MariameTOURE\Desktop\CDA\ADOU\CSS\FormExo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form method="" action="">
+            <h1 id="h">Formulaire de participation à la competition de jeux video</h1>
+            
+            <br>
+            <h4>Completer le formulaire. Les champs marqués par <strong>*</strong> sont <strong>obligatoires:</strong></h4>
+            <fieldset>
+                <legend class="ti">Information personnelle:</legend>
+                <table>
+                    <tr>
+                        <td> Nom <strong>*</strong> : </td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>Prenom<strong>*</strong>:</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>Age<strong>*</strong>:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td> <label>Sexes:</label> </td>
+                        <td> <input type="radio" name="" id="idH" value="Homme"><label for="idH">Homme</label>
+                        </td>
+                        <td> <input type="radio" name="" id="idF" value="Femme"><label for="idF">Femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Voulez-vous participer <br> à cette competition ?</td>
+                        <td><input type="text" id="li"></td>
+                    </tr>
+        
+                </table>
+            </fieldset><br>
+            <fieldset>
+                <legend class="ti">Quel projet web:</legend>
+                <table>
+
+                    <tr>
+                        <td> <input type="checkbox"> <label>word</label> </td>
+                        <td> <input type="checkbox"> <label>PHP</label> </td>
+                        <td> <input type="checkbox"> <label>Exel</label> </td>
+                        <td> <input type="checkbox"> <label>Java Scrip</label> </td>
+                        <td> <input type="checkbox"> <label>Reac</label> </td>
+
+                    </tr>
+                </table>
+            </fieldset><br>
+            <fieldset>
+                <legend class="ti">Contacts:</legend>
+                <table>
+                    <tr>
+                        <td>Telephone:</td>
+                        <td><input type="text" id="num" name="numero" placeholder="number" pattern="[0-9]{8}"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail<strong>*</strong>:</td>
+                        <td><input type="text" id="mail" name="E-mail" placeholder="nom@yahoo.fr" pattern="[a-zA-Z0-9]@yahoo.fr" ></td>
+                    </tr>
+                </table>
+            
+            </fieldset>
+            <input type="submit" value="Cliquez ici" id="boutton">
+            
+        </form>
+    </div>
+
+</body>
+
+</html>
